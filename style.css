@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(58, 58, 238);
+  margin: auto;
+}
+section {
+  background-color: rgb(242, 243, 245);
+  width: 500px;
+  margin: auto;
+  padding: top ;
+  padding-bottom: 3px;
+  text-align: center;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
