@@ -1,18 +1,66 @@
 body {
-  background-color: rgb(58, 58, 238);
+  background-color: rgb(53, 9, 58);
   margin: auto;
 }
 section {
-  background-color: rgb(242, 243, 245);
+  background-color: rgb(237, 239, 241);
   width: 500px;
   margin: auto;
-  padding: top ;
+  padding: 5px,0 5px 5px ;
   padding-bottom: 3px;
   text-align: center;
   border-radius: 5px;
+}
+h1 {
+   font-family: Arial, Helvetica, sans-serif;
+}
+.paragrafo {
+   padding-left: 10px;
+   padding-right: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+}
+.campoPalpite {
+   margin-top: 13px;
+   margin-bottom: 13px;
+   border-radius: 9px;
+   padding: 10px;
+}
+.envioPalpite {
+   background-color: rgb(53, 9, 58);
+   color: white;
+   padding: 6px;
+   border-radius: 9px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.ultimoResultado {
+   color: #fff;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 2px;
+   width: 200px;
+   margin: auto;
+   border-radius: 3px;
+   padding: 5px;
+   
+}
+.palpites {
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.baixoOuAlto {
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 footer {
   text-align: center;
   color: aliceblue;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+@media  screen and (max-width: 800px) {
+   section {
+      width: 400px;
+      padding: auto;
+   }
 }
